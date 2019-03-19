@@ -1,0 +1,26 @@
+{
+  "name": "historical-events-finder",
+  "version": "1.0.0",
+  "description": "finds historical events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSaquin/historical-events-finder.git"
+  },
+  "keywords": [
+    "history",
+    "mini",
+    "app",
+    "sprint",
+    "react"
+  ],
+  "author": "Dawn Saquin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DSaquin/historical-events-finder/issues"
+  },
+  "homepage": "https://github.com/DSaquin/historical-events-finder#readme"
+}
