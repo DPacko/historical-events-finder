@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js --static",
-    "build:dev": "webpack-dev-server --mode development",
+    "build:dev": "DIST=true webpack-dev-server --mode development",
     "dev:react": "webpack -d --watch",
     "build:production": "webpack --mode production"
   },
@@ -38,6 +38,7 @@
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.0",
