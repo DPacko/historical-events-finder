@@ -47,8 +47,6 @@ class App extends React.Component {
   }
 
   handlePageClick = (data) => {
-    // console.log('keyword', this.state.keyword);
-    // console.log('page selected', data.selected);
     const page = data.selected + 1;
 
     this.setState({
